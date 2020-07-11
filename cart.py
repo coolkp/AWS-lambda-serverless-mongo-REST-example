@@ -9,7 +9,6 @@ client=pymongo.MongoClient(url)
 def cart(event, context):
     # get request body
     print(event)
-    print("FUCK FUCK")
     data = json.loads(event['body'])
     store_db = client[event['pathParameters']['db_name']]
     store_db_carts = store_db["carts"]
