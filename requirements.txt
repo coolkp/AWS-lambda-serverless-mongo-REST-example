@@ -1,0 +1,6 @@
+pymongo
+dnspython
+datetime
+bson
+pypng
+pyqrcode
