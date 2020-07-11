@@ -3,5 +3,4 @@ AWS and Lambda REST api example with Mongo remote use
 
 ## Illustration
 
-![Image of Yaktocat]
-(Architecture.png)
+![](Architecture.png)
