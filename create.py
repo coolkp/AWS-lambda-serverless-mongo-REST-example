@@ -10,7 +10,6 @@ client=pymongo.MongoClient(url)
 def create(event, context):
     # get request body
     print(event)
-    print("FUCK FUCK")
     data = json.loads(event['body'])
     admin = client["management"]
     #MAKE ALL STORES GEOSPATIAL AND INDEXED BY LATITUDE LONGITUDE.
